@@ -5,7 +5,7 @@ body {
     background-color: #f0f8ff;
     color: #333;
     margin: 0;
-    padding: 30px;
+    padding: 15px;
 }
 
 .container {
@@ -73,6 +73,8 @@ td {
 table img {
     display: block;
     margin: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /* O link muda de cor quando o usuário passar o mouse sobre ele. */
@@ -95,4 +97,19 @@ button {
     font-style: italic;
     font-weight:bold;
     color: #4682B4;
+}
+
+/* Para uso em telas pequenas */
+@media (max-width: 768px) {
+
+    /* Na seção de Hobbies e na tabela, os itens ficarão empilhados  
+    e centralizados*/
+    .container-conteudo {
+        flex-direction: column;
+    }
+
+    td {
+        display: block;
+        text-align: center; 
+    }
 }
