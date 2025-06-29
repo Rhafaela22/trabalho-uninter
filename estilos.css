@@ -64,6 +64,7 @@ table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 td {
     border: 1px solid #ccc;
@@ -73,7 +74,7 @@ td {
 table img {
     display: block;
     margin: auto;
-    width: 300px;
+    width: 250px;
     max-width: 100%;
     height: auto;
 }
