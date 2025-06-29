@@ -1,0 +1,98 @@
+/* O fundo da página tem uma cor suave. */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+/* O título tem uma cor diferente e esta centralizado. */
+h1 {
+    color: #4682B4;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #f0f8ff;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* O parágrafo tem um tamanho de fonte maior e está justificado. */
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.container-conteudo ul {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* A lista tem um espaçamento maior entre os itens. */
+li {
+    margin-bottom: 15px;
+}
+
+/* A imagem tem bordas arredondadas e um tamanho adequado. */
+.imagem-arredondada {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+/* A tabela está estilizada. */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    vertical-align: middle;
+}
+table img {
+    display: block;
+    margin: auto;
+}
+
+/* O link muda de cor quando o usuário passar o mouse sobre ele. */
+a {
+    display: block; 
+    text-align: center;
+    margin-top: 40px;
+}
+a:hover {
+    color: #db0b0b;
+}
+
+/* Estilos para o botão e mensagem do JavaScript */
+button {
+    display: block;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+#mensagem {
+    font-style: italic;
+    font-weight:bold;
+    color: #4682B4;
+}
