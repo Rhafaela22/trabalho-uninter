@@ -74,9 +74,10 @@ td {
 table img {
     display: block;
     margin: auto;
-    width: 250px;
+    width: 300px;
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 /* O link muda de cor quando o usuário passar o mouse sobre ele. */
